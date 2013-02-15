@@ -8,12 +8,17 @@ La aplicación se encarga de:
 * Ordenar una lista ascendentemente.
 * Encontrar la posición de un número dentro de una lista.
 
+J2ME
+----
+
 La plataforma de J2ME se puede descargar de:
 http://www.oracle.com/technetwork/java/download-135801.html
 
-Screencast:
+Screencast
+----------
 http://www.youtube.com/watch?v=Lx0NCfi1l6g
 
-Código:
+Código
+------
 El código fuente de esta aplicación se puede descargar en:
 https://github.com/soncco/j2metutorial 

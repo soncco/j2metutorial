@@ -23,11 +23,11 @@ public class Proyecto extends MIDlet implements CommandListener {
   private TextField textField1;
   private StringItem stringItem;
   private Form frmMayor;
-  private TextField textField2;
   private StringItem stringItem1;
+  private TextField textField2;
   private Form frmOrdenar;
-  private TextField textField3;
   private StringItem stringItem2;
+  private TextField textField3;
   private Form frmPosicion;
   private TextField textField4;
   private TextField textField5;
@@ -36,8 +36,8 @@ public class Proyecto extends MIDlet implements CommandListener {
   private Command exitCommand;
   private Command okCommand1;
   private Command exitCommand1;
-  private Command okCommand2;
   private Command exitCommand2;
+  private Command okCommand2;
   private Command okCommand3;
   private Command exitCommand3;
 //</editor-fold>//GEN-END:|fields|0|
@@ -232,7 +232,7 @@ public class Proyecto extends MIDlet implements CommandListener {
   public List getListaOpciones() {
     if (listaOpciones == null) {//GEN-END:|14-getter|0|14-preInit
       // write pre-init user code here
-      listaOpciones = new List("list", Choice.IMPLICIT);//GEN-BEGIN:|14-getter|1|14-postInit
+      listaOpciones = new List("Opciones", Choice.IMPLICIT);//GEN-BEGIN:|14-getter|1|14-postInit
       listaOpciones.append("Operaciones b\u00E1sicas", null);
       listaOpciones.append("Mayor de N n\u00FAmeros", null);
       listaOpciones.append("Ordenar N n\u00FAimeros", null);
